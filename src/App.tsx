@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import {Header} from "./header/Header";
+import {Content} from "./content/Content";
 
 function App() {
   return (
     <div className="App">
-         Portfolio
+      <Header/>
+      <Content/>
     </div>
   );
 }

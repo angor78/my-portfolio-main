@@ -3,12 +3,12 @@ import s from './Nav.module.css'
 
 export const Nav = () => {
 
-  return(
-    <ul className={s.nav}>
-      <li>link 1</li>
-      <li>link 2</li>
-      <li>link 3</li>
-      <li>link 44</li>
-    </ul>
+  return (
+    <div className={s.nav}>
+      <a href="/">About me</a>
+      <a href="/">Scills</a>
+      <a href="/">Works</a>
+      <a href="/">Contacts</a>
+    </div>
   )
 }

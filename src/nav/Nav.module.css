@@ -1,4 +1,11 @@
-
 .nav{
+    border: 1px solid red;
+    display: block;
 
+}
+.nav a{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 5px;
 }
