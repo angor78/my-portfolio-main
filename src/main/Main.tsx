@@ -12,10 +12,9 @@ export const Main = () => {
           <span>Frontend developer</span>
           <h1> Hi, I'm Agent Smith.</h1>
           <p> Praesent sed aliquam arcu, non accumsan neque. In odio ante, vulputate ac magna vel, pharetra lobortis quam.
-            Duis enim tortor, egestas et felis id, lobortis malesuada magna. Nunc sit amet sagittis nisi, eu semper nisl.
-            Cras ut dictum nisl. Donec tincidunt eget orci.</p>
+            </p>
           <div className={s.buttonsWrap}>
-            <button>Dowonload CV</button>
+            <button>Download CV</button>
             <button>Contact</button>
           </div>
 

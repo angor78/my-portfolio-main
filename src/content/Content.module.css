@@ -3,4 +3,13 @@
     width: 100%;
     overflow-y: scroll;
     flex-grow: 1;
+    border-top: 14px solid #F0F0F0;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -29,3 +29,25 @@ button{
     padding: 8px 10px;
     border-radius: 0;
 }
+@media screen and (max-width: 1200px) {
+    .main{
+        position: relative;
+        height: 450px;
+
+    }
+    .text{
+        position: absolute;
+        width: 60%;
+        bottom: 40px;
+        left: 4em;
+        color: white;
+        background-color: rgba(0,0,0 ,0.4);
+        padding: 10px;
+    }
+    .photo {
+        top:0;
+        left: 50px;
+        width: 360px;
+        max-height: 450px;
+    }
+}

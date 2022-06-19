@@ -4,6 +4,7 @@ import {Skills} from "../skills/Skills";
 import s from './Content.module.css'
 import {Works} from "../works/Works";
 import {Contacts} from "../contacts/Contacts";
+import {Footer} from "../footer/Footer";
 
 export const Content = () => {
 
@@ -13,6 +14,7 @@ export const Content = () => {
       <Skills/>
       <Works/>
       <Contacts/>
+      <Footer/>
     </div>
   )
 }

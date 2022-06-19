@@ -6,9 +6,10 @@ import {TitleCard} from "../title-card/TitleCard";
 export const Header = () => {
 
   return (
-    <div className={s.header}>
-      <TitleCard/>
-      <Nav/>
-    </div>
+      <div className={s.header}>
+        <TitleCard/>
+        <Nav/>
+      </div>
+
   )
 }

@@ -12,5 +12,9 @@
     height: 150px;
     border-radius: 50%;
     background-color: blanchedalmond;
-
+}
+@media screen and (max-width: 1200px) {
+    .titleCard{
+        display: none;
+    }
 }
