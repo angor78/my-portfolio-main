@@ -1,2 +1,16 @@
 .titleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+
 }

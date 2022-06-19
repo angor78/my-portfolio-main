@@ -5,12 +5,27 @@
 }
 
 .text{
+    margin-top: 50px;
     width: 400px;
     background-color: darkgray;
+    text-align: center;
+
 }
 .photo{
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 550px;
     background-color: blanchedalmond;
 
+}
+.buttonsWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+    padding: 8px 10px;
+    border-radius: 0;
 }

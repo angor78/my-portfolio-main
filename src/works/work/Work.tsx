@@ -1,11 +1,14 @@
-import React from 'react';
-import s from './Skill.module.css'
+import React from "react";
+import s from './Work.module.css'
 
-export const Skill = (props: any) => {
 
+
+export const Work = (props: any) => {
   return (
-    <div className={s.skill}>
-      <div className={s.icon}></div>
+    <div className={s.work}>
+      <div className={s.img}>
+        <button>Present</button>
+      </div>
       <h3>{props.title}</h3>
       <span className={s.description}>
         Lorem ipsum dolor sit amet, consectetur

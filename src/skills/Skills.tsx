@@ -15,8 +15,6 @@ export const Skills = () => {
           <Skill title={'CSS'}/>
         </div>
       </div>
-
-
     </div>
   )
 }

@@ -1,8 +1,8 @@
-.skillsBlock {
+.worksBlock {
     height: 100vh;
 }
 
-.skillsContainer {
+.worksContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
@@ -12,7 +12,7 @@
     background-color: darkgray;
 }
 
-.skills {
+.works {
     border: 1px solid darkgray;
     width: 100%;
     display: flex;

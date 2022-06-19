@@ -5,7 +5,11 @@ export const TitleCard = () => {
 
   return (
     <div className={s.titleCard}>
-      <h2>Title card</h2>
+      <div className={s.photo}></div>
+      <h2>Agent Smith</h2>
+      <span>Frontend developer</span>
+
+
     </div>
   )
 }
