@@ -7,7 +7,7 @@ export const Works = () => {
   return(
     <div className={s.worksBlock}>
       <div className={`${styleContainer.container} ${s.worksContainer}`}>
-        <h2 className={s.title}>Works</h2>
+        <h2 className={s.title}>My works</h2>
         <div className={s.works}>
           <Work title={'Todolist'}/>
           <Work title={'Samurai way'}/>

@@ -1,5 +1,5 @@
 .skillsBlock {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .skillsContainer {
@@ -20,7 +20,14 @@
     flex-wrap: wrap;
 }
 @media screen and (max-width: 1200px) {
+    .skillsBlock{
+    }
+    .skillsContainer{
+        flex-direction: row;
+        justify-content: center;
+    }
     .skills{
         justify-content: center;
+
     }
 }
