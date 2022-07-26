@@ -1,0 +1,49 @@
+@import 'src/variables.scss';
+
+.titleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    margin-top: 25px;
+}
+.name{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.prof{
+    font-size: 16px;
+    color: $secondary-color;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.iconsBlock{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    display: flex;
+    color: gray;
+    width: 30%;
+    justify-content:space-between;
+
+}
+.icons{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 1200px) {
+    .titleCard{
+        display: none;
+    }
+}

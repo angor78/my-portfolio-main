@@ -1,0 +1,124 @@
+@import 'src/variables.scss';
+
+.main {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+}
+
+.text {
+  margin-top: 80px;
+  width: 400px;
+  text-align: left;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.text p {
+  color: $secondary-color;
+  line-height: 23px;
+  font-size: 17px;
+}
+
+.text h1 {
+
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+.text h1 span {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: $secondary-color;
+  font-size: 44px;
+  font-weight: lighter;
+  line-height: 0.2;
+}
+
+.prof {
+  font-size: 18px;
+  color: $secondary-color;
+  font-weight: lighter;
+}
+
+.photo {
+  width: 400px;
+  height: 540px;
+  background-color: blanchedalmond;
+
+}
+
+.buttonsWrap {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  padding: 8px 10px;
+  border-radius: 0;
+  font-size: 16px;
+  color: $secondary-color;
+  border: none;
+}
+
+button:first-child {
+  margin-right: 20px;
+  background-color: $primary-color;
+  color: whitesmoke;
+}
+
+button:first-child:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    position: relative;
+    height: 450px;
+
+  }
+  .text {
+    position: absolute;
+    width: 60%;
+    bottom: 40px;
+    left: 4em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  .text p {
+    color: whitesmoke;
+    line-height: 14px;
+    font-size: 12px;
+  }
+  .text h1 {
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 0;
+  }
+  .text h1 span {
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 0.2;
+  }
+  .prof {
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: lighter;
+  }
+  .photo {
+    top: 0;
+    left: 50px;
+    width: 360px;
+    max-height: 450px;
+  }
+}

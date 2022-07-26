@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './TitleCard.module.css'
+import s from './TitleCard.module.scss'
 import photo2 from '../assets/image/photo2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -13,8 +13,8 @@ export const TitleCard = () => {
   return (
     <div className={s.titleCard}>
       <img className={s.photo}
+           alt={'title'}
            src={photo2}
-           alt="photo"
            width={'180px'}
            height={'180px'}/>
       <span className={s.name}>Andrey Gorbachenko</span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Nav.module.css'
+import s from './Nav.module.scss'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronRight} from "@fortawesome/free-solid-svg-icons/faChevronRight";
 
