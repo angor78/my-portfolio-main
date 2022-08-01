@@ -7,29 +7,30 @@ import photo1 from "../assets/image/photo1.jpg";
 export const Main = () => {
 
   return (
-    <div className={s.main}>
-      <div className={styleContainer.container}>
+
+    <div className={styleContainer.container}>
+      <div className={s.main}>
         <div className={s.text}>
           <span className={s.prof}>Frontend developer</span>
           <h1><span>Hi, I'm</span> Andrey Gorbachenko.</h1>
-          <p> Praesent sed aliquam arcu,
-            non accumsan neque. In odio ante, vulputate ac magna vel, pharetra lobortis quam.
-            Praesent sed aliquam arcu,
-            non accumsan neque. In odio ante, vulputate ac magna vel, pharetra lobortis quam.
-            Praesent sed aliquam arcu,
-            non accumsan neque. In odio ante, vulputate ac magna vel, pharetra lobortis quam.
+          <p> Greetings, I am a frontend developer with a research interest in
+            JS development using REACT, Angulare, Vue frameworks. I have
+            experience in staff management, quality control, technical
+            support, implementation of experiential hardware and software.
+            Also have experience in developing SPA applications.
           </p>
           <div className={s.buttonsWrap}>
             <button>Download CV</button>
             <button>Contact</button>
           </div>
-
         </div>
-        <img src={photo1}
-             alt={'main'}
-             width={'400px'}
-             height={'540px'}
-             className={s.photo}/>
+        <div>
+          <img src={photo1}
+               alt={'main'}
+               width={'400px'}
+               height={'540px'}
+               className={s.photo}/>
+        </div>
       </div>
     </div>
   )

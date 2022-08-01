@@ -1,33 +1,40 @@
+@import 'src/variables.scss';
 .skillsBlock {
     min-height: 100vh;
+    color: $secondary-color;
 }
 
 .skillsContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+
 }
 
 .title {
-    background-color: darkgray;
+    color: black;
 }
 
 .skills {
-    border: 1px solid darkgray;
+    margin-top: 200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
+
 @media screen and (max-width: 1200px) {
-    .skillsBlock{
+    .skillsBlock {
     }
-    .skillsContainer{
+
+    .skillsContainer {
         flex-direction: row;
         justify-content: center;
     }
-    .skills{
-        justify-content: center;
 
+    .skills {
+        justify-content: center;
+        margin-top: 40px;
     }
 }

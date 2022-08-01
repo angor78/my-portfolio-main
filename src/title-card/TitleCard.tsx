@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons/faTelegram";
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
 export const TitleCard = () => {

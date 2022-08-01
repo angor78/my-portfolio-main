@@ -4,19 +4,22 @@
   background-color: #FFFFFF;
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .text {
-  margin-top: 80px;
-  width: 400px;
+  width: 520px;
   text-align: left;
   font-family: "Poppins", Helvetica, sans-serif;
+  padding-left: 20px;
 }
 
 .text p {
   color: $secondary-color;
   line-height: 23px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .text h1 {
@@ -37,16 +40,15 @@
 }
 
 .prof {
-  font-size: 18px;
+  font-size: 24px;
   color: $secondary-color;
   font-weight: lighter;
 }
 
 .photo {
-  width: 400px;
-  height: 540px;
+  width: 470px;
+  height: 650px;
   background-color: blanchedalmond;
-
 }
 
 .buttonsWrap {
@@ -77,10 +79,13 @@ button:first-child:hover {
 }
 
 @media screen and (max-width: 1200px) {
+  .container{
+    height: 480px;
+  }
   .main {
     position: relative;
-    height: 450px;
-
+    height: 480px;
+    margin-top: 50px;
   }
   .text {
     position: absolute;
@@ -94,7 +99,7 @@ button:first-child:hover {
   .text p {
     color: whitesmoke;
     line-height: 14px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .text h1 {
     font-style: normal;
@@ -116,9 +121,9 @@ button:first-child:hover {
     font-weight: lighter;
   }
   .photo {
-    top: 0;
+    top: 0px;
     left: 50px;
-    width: 360px;
-    max-height: 450px;
+    width: 100%;
+    height: 100%;
   }
 }
