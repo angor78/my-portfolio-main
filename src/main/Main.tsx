@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
-import photo1 from "../assets/image/photo1.jpg";
+import photo3 from "../assets/image/photo3.jpg";
 
 
 export const Main = () => {
@@ -34,7 +34,7 @@ export const Main = () => {
           </div>
         </div>
         <div>
-          <img src={photo1}
+          <img src={photo3}
                alt={'main'}
                width={'400px'}
                height={'540px'}
