@@ -11,13 +11,22 @@ export const Main = () => {
     <div className={styleContainer.container}>
       <div className={s.main}>
         <div className={s.text}>
-          <span className={s.prof}>Frontend developer</span>
+          <span className={s.prof}>Front-end developer</span>
           <h1><span>Hi, I'm</span> Andrey Gorbachenko.</h1>
-          <p> Greetings, I am a frontend developer with a research interest in
-            JS development using REACT, Angulare, Vue frameworks. I have
-            experience in staff management, quality control, technical
-            support, implementation of experiential hardware and software.
-            Also have experience in developing SPA applications.
+          <p> Greetings, I am a front-end
+            developer. Have experience
+            in developing SPA
+            applications using REACT
+            framework, React Native,
+            Python .  Also have
+            experience in staff
+            management, quality
+            control, technical support,
+            implementation of
+            experiential hardware and
+            software.  I have a research
+            interest in Angular and Vue
+            frameworks.
           </p>
           <div className={s.buttonsWrap}>
             <button>Download CV</button>

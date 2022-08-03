@@ -17,7 +17,7 @@ export const TitleCard = () => {
            width={'180px'}
            height={'180px'}/>
       <span className={s.name}>Andrey Gorbachenko</span>
-      <span className={s.prof}>Frontend developer</span>
+      <span className={s.prof}>Front-end developer</span>
       <div className={s.iconsBlock}>
         <FontAwesomeIcon className={s.icons} icon={faGithub}/>
         <FontAwesomeIcon className={s.icons} icon={faLinkedin}/>
