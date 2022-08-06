@@ -9,16 +9,16 @@
 }
 
 .title {
-    background-color: darkgray;
+    margin-bottom: 70px;
 }
 
 .works {
-    border: 1px solid darkgray;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 @media screen and (max-width: 1200px) {
     .works{
         justify-content: center;
