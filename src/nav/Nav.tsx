@@ -13,7 +13,7 @@ export const Nav = () => {
           <a  href="/" >About me <FontAwesomeIcon   icon={faChevronRight}/></a>
         </li>
         <li>
-          <a href="/">Scills <FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/></a>
+          <a href="/">Skills <FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/></a>
 
         </li>
         <li>
