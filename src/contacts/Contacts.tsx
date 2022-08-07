@@ -14,7 +14,7 @@ export const Contacts = () => {
             <h2>MESSAGE FORM</h2>
             <p><input type={"text"} placeholder="Write your name here.."></input></p>
             <p><input type={'email'} placeholder="Let us know how to contact you back.."></input></p>
-            <p><input type={'text'} placeholder="What would you like to tell us.."></input></p>
+            <p><input type={'text'} placeholder="What would you like to tell me.."></input></p>
             <button>Send Message</button>
             <div>
               <span><FontAwesomeIcon className={s.icons} icon={faPhone}/></span>+79624745515
