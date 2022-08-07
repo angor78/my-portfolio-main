@@ -3,7 +3,7 @@ import styleContainer from "../common/styles/Container.module.css";
 import s from './Skills.module.scss'
 import {Skill} from "./skill/Skill";
 import api from './../assets/image/icons/api.png'
-import react from './../assets/image/icons/react3.png'
+import react from './../assets/image/icons/react2.png'
 import redux from './../assets/image/icons/redux2.png'
 import ts from './../assets/image/icons/ts.png'
 import axios from './../assets/image/icons/axios.png'

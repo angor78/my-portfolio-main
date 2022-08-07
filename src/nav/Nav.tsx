@@ -9,21 +9,20 @@ export const Nav = () => {
   return (
     <div className={s.nav}>
       <ul>
-        <li >
-          <a href="/" >About me</a>
-          <FontAwesomeIcon className={s.active} icon={faChevronRight}/>
+        <li className={s.active}>
+          <a  href="/" >About me <FontAwesomeIcon   icon={faChevronRight}/></a>
         </li>
         <li>
-          <a href="/">Scills</a>
-          <FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/>
+          <a href="/">Scills <FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/></a>
+
         </li>
         <li>
-          <a href="/">Works</a>
-          <FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/>
+          <a href="/">Works<FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/></a>
+
         </li>
         <li>
-          <a href="/">Contacts</a>
-          <FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/>
+          <a href="/">Contacts<FontAwesomeIcon className={s.awesomeIcon} icon={faChevronRight}/></a>
+
         </li>
       </ul>
     </div>

@@ -24,7 +24,7 @@
 
 }
 
-.nav ul li a {
+ a {
     outline: none;
     text-decoration: none;
     color: $secondary-color;
@@ -37,13 +37,15 @@
     font-weight: 300;
 }
 
-.nav ul li a:hover {
+a:hover {
     color: $primary-color;
 }
 
-.active {
+.active a{
     color: $primary-color;
 }
+
+
 
 @media screen and (max-width: 1200px) {
     .nav {
