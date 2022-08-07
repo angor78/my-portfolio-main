@@ -11,14 +11,13 @@ export const Main = () => {
     <div className={styleContainer.container}>
       <div className={s.main}>
         <div className={s.text}>
-          <span className={s.prof}>Front-end developer</span>
+          <div className={s.prof}>Front-end developer</div>
           <h1><span>Hi, I'm</span> Andrey Gorbachenko.</h1>
           <p> Greetings, I am a front-end
             developer. Have experience
             in developing SPA
             applications using REACT
-            framework, React Native,
-            Python .  Also have
+            framework. Also have
             experience in staff
             management, quality
             control, technical support,

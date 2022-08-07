@@ -7,6 +7,18 @@
     align-items: center;
     padding: 10px 8px;
     text-align: center;
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    color: $secondary-color;
+}
+h3{
+    color: $gray-dark;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .icon {
@@ -14,4 +26,6 @@
     width: 60px;
     height: 60px;
     color: $primary-color;
+    box-shadow: 0 20px 40px -1px rgba(0,0,0,0.25);
+
 }

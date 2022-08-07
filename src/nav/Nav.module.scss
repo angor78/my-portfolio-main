@@ -16,7 +16,11 @@
     flex-direction: row;
     align-items: end;
     padding: 8px;
-    font-size: 24px;
+    color: $gray-dark;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
 }
 
@@ -30,6 +34,7 @@
 
 .awesomeIcon {
     color: $secondary-color;
+    font-weight: 300;
 }
 
 .nav ul li a:hover {

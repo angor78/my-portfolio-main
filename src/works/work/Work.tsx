@@ -1,28 +1,25 @@
 import React from "react";
-import s from './Work.module.css'
+import s from './Work.module.scss'
 
 
 type WorkPropsType = {
-  poster: string
   title: string
 }
 export const Work = (props: WorkPropsType) => {
-  return (
-    <div className={s.work}>
-      <div className={s.poster}>
-        <img src={props.poster} alt="poster" width={'100%'} height={'100%'}/>
-        <div className={s.description}>
-          <h3>{props.title}</h3>
-          <p>
-        Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit Lorem ipsum dolor sit amet, co
-        Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit Lorem ipsum dolor sit amet, co
+  return (<li className={s.cards__item}>
+      <div className={s.card}>
+        <div className={s.card__image}></div>
+        <div className={s.card__content}>
+          <div className={s.card__title}>{props.title}</div>
+          <p className={s.card__text}>This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The
+            second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+          <div className={s.buttonsWrap}>
             <button>Demo</button>
-          <button>Git</button>
-           </p>
+            <button>Git</button>
+          </div>
         </div>
       </div>
-    </div>
+    </li>
+
   )
 }
