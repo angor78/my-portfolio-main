@@ -18,7 +18,7 @@ export const Works = () => {
     'REST api, login/logout flow, pagination, form and validation/file \n' +
     'uploading using unit- tests for code workability check'
   let todosLinks = ['https://angor78-todo-main.netlify.app/', 'https://github.com/angor78/todo-list-main']
-  let samuraiLinks = ['', 'https://github.com/angor78/samurai-way-main']
+  let samuraiLinks = ['https://samurai-way.netlify.app/', 'https://github.com/angor78/samurai-way-main']
   return (
     <div className={s.worksBlock}>
       <div className={styleContainer.container}>
