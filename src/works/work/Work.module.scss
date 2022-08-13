@@ -80,7 +80,7 @@ button:first-child:hover {
     filter: saturate(180%);
     overflow: hidden;
     position: relative;
-    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
 &::before {
      content: "";
      display: block;

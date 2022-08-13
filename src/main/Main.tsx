@@ -7,7 +7,6 @@ import photo3 from "../assets/image/photo3.jpg";
 export const Main = () => {
 
   return (
-
     <div className={styleContainer.container}>
       <div className={s.main}>
         <div className={s.text}>

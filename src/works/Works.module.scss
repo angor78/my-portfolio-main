@@ -24,3 +24,11 @@ h2 {
 .worksContainer {
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+  .container {
+    margin: 0;
+  }
+  .worksContainer{
+    width: 100%;
+  }
+}
