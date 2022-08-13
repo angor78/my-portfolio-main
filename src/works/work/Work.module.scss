@@ -12,7 +12,8 @@ img {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
 button {
@@ -41,10 +42,10 @@ button:first-child:hover {
     display: flex;
     padding: 1rem;
 @media(min-width: 40rem) {
-    width: 50%;
+    width: 45%;
 }
 @media(min-width: 56rem) {
-    width: 33.3333%;
+    width: 45%;
 }
 }
 
@@ -75,8 +76,8 @@ button:first-child:hover {
     background-size: cover;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
-    filter: contrast(70%);
-//filter: saturate(180%);
+    //filter: contrast(70%);
+    filter: saturate(180%);
     overflow: hidden;
     position: relative;
     transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
