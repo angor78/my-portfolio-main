@@ -17,8 +17,8 @@ export const Works = () => {
     ' Social network app using react hooks, routing,working with\n' +
     'REST api, login/logout flow, pagination, form and validation/file \n' +
     'uploading using unit- tests for code workability check'
-  let todosLinks = ['https://angor78-todo-main.netlify.app/', 'https://github.com/angor78/todo-list-main']
-  let samuraiLinks = ['https://samurai-way.netlify.app/', 'https://github.com/angor78/samurai-way-main']
+  let todosLinks = ['https://angor78.github.io/todo-list-main', 'https://github.com/angor78/todo-list-main']
+  let samuraiLinks = ['https://angor78.github.io/samurai-way-main', 'https://github.com/angor78/samurai-way-main']
   return (
     <div className={s.worksBlock}>
       <div className={styleContainer.container}>
