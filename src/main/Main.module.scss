@@ -88,16 +88,15 @@ button:first-child:hover {
   .main {
     position: relative;
     margin: 0;
-    height: 540px;
-    //width: 100%;
+    height: auto;
   }
   .text {
     position: absolute;
     width: 95%;
-    bottom: 3px;
+    bottom: 7px;
     left: 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
   }
   .text p {
@@ -126,9 +125,10 @@ button:first-child:hover {
   }
   .photo {
     border: none;
-    top: 0;
-    left: 50px;
-    width: 100%;
-    height: 100%;
+    //top: 0;
+    //left: 50px;
+    //width: 100%;
+    //height: 100%;
+    object-fit: cover;
   }
 }
