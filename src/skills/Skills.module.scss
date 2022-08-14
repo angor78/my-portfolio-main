@@ -23,6 +23,9 @@
 @media screen and (max-width: 1200px) {
     .skillsBlock {
     }
+    .title{
+        margin-top: 20px;
+    }
 
     .skillsContainer {
         flex-direction: row;
@@ -31,6 +34,6 @@
 
     .skills {
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
