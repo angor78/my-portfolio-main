@@ -27,7 +27,7 @@ export const Skills = () => {
           <Skill title={'Axios'} icon={axios}/>
           <Skill title={'Storybook'} icon={storybook}/>
           <Skill title={'Postman'} icon={postman} color={'orange'}/>
-          <Skill title={'Chakra/Material UI'} icon={material}/>
+          <Skill title={'Material'} icon={material}/>
         </div>
       </div>
     </div>

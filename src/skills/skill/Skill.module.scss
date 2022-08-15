@@ -27,3 +27,8 @@ h3{
     height: 60px;
     filter: grayscale(1) drop-shadow(10px 5px 5px gray) ;
 }
+@media screen and (max-width: 1200px) {
+    .skill{
+        width: 120px;
+    }
+}
