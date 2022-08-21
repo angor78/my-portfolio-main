@@ -8,10 +8,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.part{
-  position: relative;
-  width: 400px;
-}
+
 .text {
   width: 520px;
   text-align: left;
@@ -27,7 +24,7 @@
 }
 
 .text h1 {
-  position: relative;
+
   font-style: normal;
   font-size: 44px;
   font-weight: 700;
@@ -94,7 +91,7 @@ button:first-child:hover {
 @media screen and (max-width: 1200px) {
 
   .main {
-    position: relative;
+    //position: relative;
     margin-top: 0;
     height: 100vh;
   }

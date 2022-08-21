@@ -7,12 +7,11 @@ import {faTelegram} from "@fortawesome/free-brands-svg-icons/faTelegram";
 
 export const Footer = () => {
 
-  return(
+  return (
     <div className={s.footer}>
       <a href="/"><FontAwesomeIcon className={s.icons} icon={faGithub}/> GitHub</a>
       <a href="/"><FontAwesomeIcon className={s.icons} icon={faTelegram}/> Telegram</a>
       <a href="/"><FontAwesomeIcon className={s.icons} icon={faLinkedin}/> Linkedin</a>
-      <span>@Copyright 2022</span>
     </div>
   )
 }
