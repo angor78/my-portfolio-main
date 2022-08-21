@@ -8,6 +8,7 @@ export const Nav = () => {
 
   return (
     <div className={s.nav}>
+
       <ul>
         <li className={s.active}>
           <a  href="/" >About me <FontAwesomeIcon   icon={faChevronRight}/></a>
@@ -25,6 +26,7 @@ export const Nav = () => {
 
         </li>
       </ul>
+
     </div>
   )
 }
