@@ -27,7 +27,7 @@
 }
 
 .text h1 {
-
+  position: relative;
   font-style: normal;
   font-size: 44px;
   font-weight: 700;
@@ -36,6 +36,7 @@
 }
 
 .text h1 span {
+
   font-family: "Poppins", Helvetica, sans-serif;
   color: $secondary-color;
   font-size: 44px;
@@ -44,6 +45,7 @@
 }
 
 .prof {
+  position: relative;
   color: $gray-dark;
   font-size: 1.25rem;
   font-weight: 300;
@@ -52,7 +54,7 @@
 }
 
 .photo {
-  z-index: 2;
+  position: relative;
   width: 500px;
   height: 700px;
   background-color: blanchedalmond;
@@ -61,6 +63,7 @@
 }
 
 .buttonsWrap {
+  position: relative;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
@@ -103,6 +106,7 @@ button:first-child:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
+    z-index: 1;
   }
   .text p {
     color: whitesmoke;
@@ -129,6 +133,7 @@ button:first-child:hover {
     font-weight: lighter;
   }
   .photo {
+    z-index: 0;
     border: none;
     object-fit: cover;
   }
