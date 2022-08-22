@@ -11,6 +11,9 @@
 .footer a{
   text-decoration:none ;
 }
+a:hover img{
+  background-color: $primary-color;
+}
 @media screen and (max-width: 1200px) {
   span{
     display: none;

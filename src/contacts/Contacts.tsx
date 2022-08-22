@@ -3,10 +3,12 @@ import s from './Contacts.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {Fade} from "react-awesome-reveal";
 
 export const Contacts = () => {
 
   return (
+    <Fade direction={'left'}>
       <div className={styleContainer.container} >
         <h2 className={s.title}>Contacts</h2>
         <div className={s.contacts}>
@@ -19,10 +21,10 @@ export const Contacts = () => {
             <div>
               <span><FontAwesomeIcon className={s.icons} icon={faPhone}/></span>+79624745515
               <span><FontAwesomeIcon className={s.icons} icon={faEnvelope}/></span>angor78@gmail.com
-
             </div>
           </form>
         </div>
       </div>
+    </Fade>
   )
 }

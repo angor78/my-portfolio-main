@@ -45,6 +45,9 @@
     width: 20px;
     height: 20px;
 }
+.icons:hover{
+    color: $primary-color;
+}
 @media screen and (max-width: 1200px) {
     .titleCard{
         display: none;
