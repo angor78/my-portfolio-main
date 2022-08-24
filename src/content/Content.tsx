@@ -13,6 +13,7 @@ export const Content = () => {
 
     <div className={s.content}>
     <Routes>
+      <Route path={'/'} element={<Main/>}/>
       <Route path={'/main'} element={<Main/>}/>
       <Route path={'/skills'} element={<Skills/>}/>
       <Route path={'/works'} element={<Works/>}/>
