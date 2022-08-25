@@ -26,7 +26,7 @@ export const Works = () => {
         <div className={s.worksBlock}>
           <div className={styleContainer.container}>
             <div className={s.worksContainer}>
-              <h2>My works</h2>
+              <h2 className={s.title}>My works</h2>
               <ul className={s.cards}>
                 <Work title={'Todolist'} poster={todosImg} desc={todosDesc} links={todosLinks}/>
                 <Work title={'Samuray-way'} poster={samuraiImg} desc={samuraiDesc} links={samuraiLinks}/>

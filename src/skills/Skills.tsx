@@ -8,7 +8,7 @@ import redux from './../assets/image/icons/redux2.png'
 import ts from './../assets/image/icons/ts.png'
 import axios from './../assets/image/icons/axios.png'
 import storybook from './../assets/image/icons/storybook.png'
-import postman from './../assets/image/icons/postman.png'
+import postman from './../assets/image/icons/postman-icon.png'
 import js from './../assets/image/icons/js2.png'
 import material from './../assets/image/icons/material.png'
 import {Fade} from "react-awesome-reveal";
@@ -28,7 +28,7 @@ export const Skills = () => {
             <Skill title={'JS'} icon={js}/>
             <Skill title={'Axios'} icon={axios}/>
             <Skill title={'Storybook'} icon={storybook}/>
-            <Skill title={'Postman'} icon={postman} color={'orange'}/>
+            <Skill title={'Postman'} icon={postman}/>
             <Skill title={'Material'} icon={material}/>
           </div>
         </div>

@@ -1,9 +1,11 @@
+@import 'src/variables.scss';
+
 .content {
-    background-color: #FFFFFF;
+    background-color: $background-color;
     width: 100%;
     overflow-y: scroll;
     flex-grow: 1;
-    border-top: 14px solid #F0F0F0;
+    //border-top: 14px solid #F0F0F0;
 
 }
 

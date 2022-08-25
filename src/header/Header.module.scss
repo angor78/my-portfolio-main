@@ -3,12 +3,12 @@
 .header {
     //height: 94vh;
     position: relative;
-    background-color: #FFFFFF;
+    background-color: $background-color;
     width: 385px;
     padding: 10px;
-    margin-right: 14px;
+    //margin-right: 14px;
     overflow: hidden;
-    border: 14px solid #F0F0F0;
+    //border: 14px solid #F0F0F0;
     border-right: 0;
 }
 @media screen and (max-width: 1200px) {

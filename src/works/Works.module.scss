@@ -15,19 +15,24 @@
 
 h2 {
   margin-bottom: 70px;
-  color: $gray-dark;
+  color: $gray-light;
   font-size: 1.35rem;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
+.title{
+  margin-top: 100px;
+}
 .worksContainer {
   text-align: center;
 }
 @media screen and (max-width: 1200px) {
   .container {
     margin: 0;
+  }
+  .title{
+    margin-top: 40px;
   }
   .worksContainer{
     width: 100%;
