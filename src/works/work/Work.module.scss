@@ -12,7 +12,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap:0;
+  gap: 0;
 }
 
 button {
@@ -53,7 +53,7 @@ button:first-child:hover {
   position: relative;
   background-color: $background-color;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  //box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -66,10 +66,10 @@ button:first-child:hover {
     z-index: 2;
     -ms-transform: scale(1.5);
     transform: scale(1.5);
-    -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    -webkit-backface-visibility: hidden;
+    //-webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    //-moz-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    //box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    //-webkit-backface-visibility: hidden;
   }
 }
 
@@ -106,7 +106,7 @@ button:first-child:hover {
 }
 
 .card__title {
-  color: $gray-dark;
+  color: $gray-light;
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
@@ -120,8 +120,13 @@ button:first-child:hover {
   margin-bottom: 1.25rem;
   color: $secondary-color;
 }
+
 @media screen and (max-width: 1200px) {
-  .cards__item{
+  .cards__item {
     width: 100%;
+  }
+  .card:hover {
+    z-index: initial;
+    transform: initial;
   }
 }
