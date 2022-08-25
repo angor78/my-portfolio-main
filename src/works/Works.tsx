@@ -21,18 +21,22 @@ export const Works = () => {
   let todosLinks = ['https://angor78.github.io/todo-list-main', 'https://github.com/angor78/todo-list-main']
   let samuraiLinks = ['https://angor78.github.io/samurai-way-main', 'https://github.com/angor78/samurai-way-main']
   return (
-    <Fade direction={'left'}>
-      <div className={s.worksBlock}>
-        <div className={styleContainer.container}>
-          <div className={s.worksContainer}>
-            <h2>My works</h2>
-            <ul className={s.cards}>
-              <Work title={'Todolist'} poster={todosImg} desc={todosDesc} links={todosLinks}/>
-              <Work title={'Samuray-way'} poster={samuraiImg} desc={samuraiDesc} links={samuraiLinks}/>
-            </ul>
+    <div id='works'>
+      <Fade direction={'left'}>
+        <div className={s.worksBlock}>
+          <div className={styleContainer.container}>
+            <div className={s.worksContainer}>
+              <h2>My works</h2>
+              <ul className={s.cards}>
+                <Work title={'Todolist'} poster={todosImg} desc={todosDesc} links={todosLinks}/>
+                <Work title={'Samuray-way'} poster={samuraiImg} desc={samuraiDesc} links={samuraiLinks}/>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </Fade>
+      </Fade>
+
+    </div>
+
   )
 }
