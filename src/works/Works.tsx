@@ -4,7 +4,6 @@ import styleContainer from "../common/styles/Container.module.css";
 import {Work} from "./work/Work";
 import todosImg from './../assets/image/todos.png'
 import samuraiImg from './../assets/image/samurai-way.png'
-// import {Fade} from "react-awesome-reveal";
 
 
 export const Works = () => {
@@ -22,19 +21,17 @@ export const Works = () => {
   let samuraiLinks = ['https://angor78.github.io/samurai-way-main', 'https://github.com/angor78/samurai-way-main']
   return (
     <div id='works'>
-      {/*<Fade direction={'left'}>*/}
-        <div className={s.worksBlock}>
-          <div className={styleContainer.container}>
-            <div className={s.worksContainer}>
-              <h2 className={s.title}>My works</h2>
-              <ul className={s.cards}>
-                <Work title={'Todolist'} poster={todosImg} desc={todosDesc} links={todosLinks}/>
-                <Work title={'Samuray-way'} poster={samuraiImg} desc={samuraiDesc} links={samuraiLinks}/>
-              </ul>
-            </div>
+      <div className={s.worksBlock}>
+        <div className={styleContainer.container}>
+          <div className={s.worksContainer}>
+            <h2 className={s.title}>My works</h2>
+            <ul className={s.cards}>
+              <Work title={'Todolist'} poster={todosImg} desc={todosDesc} links={todosLinks}/>
+              <Work title={'Samuray-way'} poster={samuraiImg} desc={samuraiDesc} links={samuraiLinks}/>
+            </ul>
           </div>
         </div>
-      {/*</Fade>*/}
+      </div>
     </div>
 
   )

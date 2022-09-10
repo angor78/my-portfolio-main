@@ -11,28 +11,25 @@ import storybook from './../assets/image/icons/storybook.png'
 import postman from './../assets/image/icons/postman-icon.png'
 import js from './../assets/image/icons/js2.png'
 import material from './../assets/image/icons/material.png'
-// import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
 
   return (
-    // <Fade direction={'left'} >
-      <div id='skills' className={s.skillsBlock}>
-        <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-          <h2 className={s.title}>Skills</h2>
-          <div className={s.skills}>
-            <Skill title={'Rest API'} icon={api}/>
-            <Skill title={'React'} icon={react}/>
-            <Skill title={'Redux'} icon={redux}/>
-            <Skill title={'Typescript'} icon={ts}/>
-            <Skill title={'JS'} icon={js}/>
-            <Skill title={'Axios'} icon={axios}/>
-            <Skill title={'Storybook'} icon={storybook}/>
-            <Skill title={'Postman'} icon={postman}/>
-            <Skill title={'Material'} icon={material}/>
-          </div>
+    <div id='skills' className={s.skillsBlock}>
+      <div className={`${styleContainer.container} ${s.skillsContainer}`}>
+        <h2 className={s.title}>Skills</h2>
+        <div className={s.skills}>
+          <Skill title={'Rest API'} icon={api}/>
+          <Skill title={'React'} icon={react}/>
+          <Skill title={'Redux'} icon={redux}/>
+          <Skill title={'Typescript'} icon={ts}/>
+          <Skill title={'JS'} icon={js}/>
+          <Skill title={'Axios'} icon={axios}/>
+          <Skill title={'Storybook'} icon={storybook}/>
+          <Skill title={'Postman'} icon={postman}/>
+          <Skill title={'Material'} icon={material}/>
         </div>
       </div>
-    // </Fade>
+    </div>
   )
 }

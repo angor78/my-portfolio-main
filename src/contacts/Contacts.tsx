@@ -3,7 +3,6 @@ import s from './Contacts.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
-// import {Fade} from "react-awesome-reveal";
 import emailjs from '@emailjs/browser'
 import {useFormik} from "formik";
 
@@ -39,22 +38,21 @@ export const Contacts = () => {
   })
   return (
     <div id='contacts'>
-      {/*<Fade direction={'left'}>*/}
-        <div className={styleContainer.container}>
-          <h2 className={s.title}>Contacts</h2>
-          <div className={s.contacts}>
-            <form className={s.form} onSubmit={formik.handleSubmit}>
-              <h2>MESSAGE FORM</h2>
-              <p>
-                <input type={"text"}
-                       placeholder="Write your name here.."
-                       id="from_name"
-                       name="from_name"
-                       onChange={formik.handleChange}
-                       value={formik.values.from_name}
-                       onBlur={formik.handleBlur}/>
-              </p>
-              <p>
+      <div className={styleContainer.container}>
+        <h2 className={s.title}>Contacts</h2>
+        <div className={s.contacts}>
+          <form className={s.form} onSubmit={formik.handleSubmit}>
+            <h2>MESSAGE FORM</h2>
+            <p>
+              <input type={"text"}
+                     placeholder="Write your name here.."
+                     id="from_name"
+                     name="from_name"
+                     onChange={formik.handleChange}
+                     value={formik.values.from_name}
+                     onBlur={formik.handleBlur}/>
+            </p>
+            <p>
                 <textarea
                   className={s.text}
                   placeholder="What would you like to tell me.."
@@ -63,25 +61,24 @@ export const Contacts = () => {
                   onChange={formik.handleChange}
                   value={formik.values.message}
                   onBlur={formik.handleBlur}></textarea>
-              </p>
-              <p>
-                <input type={'email'}
-                       placeholder="Let us know how to contact you back.."
-                       id="email"
-                       name="email"
-                       onChange={formik.handleChange}
-                       value={formik.values.email}
-                       onBlur={formik.handleBlur}/>
-              </p>
-              <button type='submit'>Send Message</button>
-              <div>
-                <span><FontAwesomeIcon className={s.icons} icon={faPhone}/></span>+79624745515
-                <span><FontAwesomeIcon className={s.icons} icon={faEnvelope}/></span>angor78@gmail.com
-              </div>
-            </form>
-          </div>
+            </p>
+            <p>
+              <input type={'email'}
+                     placeholder="Email for feedback.."
+                     id="email"
+                     name="email"
+                     onChange={formik.handleChange}
+                     value={formik.values.email}
+                     onBlur={formik.handleBlur}/>
+            </p>
+            <button type='submit'>Send Message</button>
+            <div>
+              <span><FontAwesomeIcon className={s.icons} icon={faPhone}/></span>+79624745515
+              <span><FontAwesomeIcon className={s.icons} icon={faEnvelope}/></span>angor78@gmail.com
+            </div>
+          </form>
         </div>
-      {/*</Fade>*/}
+      </div>
     </div>
   )
 }
