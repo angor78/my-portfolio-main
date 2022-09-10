@@ -8,6 +8,7 @@ export const Main = () => {
 
   return (
     <div id='main'>
+      <div>
       <div className={styleContainer.container}>
         <div className={s.main}>
           <div className={s.text}>
@@ -63,6 +64,6 @@ export const Main = () => {
         </div>
       </div>
     </div>
-
+    </div>
   )
 }
