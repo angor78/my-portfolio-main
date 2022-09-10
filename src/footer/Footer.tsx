@@ -6,7 +6,6 @@ import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons/faTelegram";
 
 export const Footer = () => {
-
   return (
     <div className={s.footer}>
       <a href="https://github.com/angor78"><FontAwesomeIcon className={s.icons} icon={faGithub}/> Git</a>
