@@ -11,12 +11,12 @@ import storybook from './../assets/image/icons/storybook.png'
 import postman from './../assets/image/icons/postman-icon.png'
 import js from './../assets/image/icons/js2.png'
 import material from './../assets/image/icons/material.png'
-import {Fade} from "react-awesome-reveal";
+// import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
 
   return (
-    <Fade direction={'left'} >
+    // <Fade direction={'left'} >
       <div id='skills' className={s.skillsBlock}>
         <div className={`${styleContainer.container} ${s.skillsContainer}`}>
           <h2 className={s.title}>Skills</h2>
@@ -33,6 +33,6 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-    </Fade>
+    // </Fade>
   )
 }

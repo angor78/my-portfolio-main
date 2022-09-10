@@ -3,7 +3,7 @@ import s from './Contacts.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
-import {Fade} from "react-awesome-reveal";
+// import {Fade} from "react-awesome-reveal";
 import emailjs from '@emailjs/browser'
 import {useFormik} from "formik";
 
@@ -39,7 +39,7 @@ export const Contacts = () => {
   })
   return (
     <div id='contacts'>
-      <Fade direction={'left'}>
+      {/*<Fade direction={'left'}>*/}
         <div className={styleContainer.container}>
           <h2 className={s.title}>Contacts</h2>
           <div className={s.contacts}>
@@ -81,7 +81,7 @@ export const Contacts = () => {
             </form>
           </div>
         </div>
-      </Fade>
+      {/*</Fade>*/}
     </div>
   )
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './Footer.module.scss'
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import {faTelegram} from "@fortawesome/free-brands-svg-icons/faTelegram";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const Footer = () => {
   return (

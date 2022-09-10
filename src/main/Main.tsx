@@ -3,14 +3,14 @@ import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import photo3 from "../assets/image/photo3.jpg";
 import ReactTypingEffect from "react-typing-effect";
-import {Fade} from "react-awesome-reveal";
+// import {Fade} from "react-awesome-reveal";
 
 
 export const Main = () => {
 
   return (
     <div id='main'>
-      <Fade direction={'left'}>
+      {/*<Fade direction={'left'}>*/}
         <div className={styleContainer.container}>
           <div className={s.main}>
             <div className={s.text}>
@@ -65,7 +65,7 @@ export const Main = () => {
             </div>
           </div>
         </div>
-      </Fade>
+      {/*</Fade>*/}
     </div>
 
   )
