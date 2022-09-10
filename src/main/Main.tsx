@@ -3,8 +3,6 @@ import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import photo3 from "../assets/image/photo3.jpg";
 import ReactTypingEffect from "react-typing-effect";
-// import {Fade} from "react-awesome-reveal";
-
 
 export const Main = () => {
 
@@ -52,7 +50,7 @@ export const Main = () => {
 
             <div className={s.buttonsWrap}>
               <button>Download CV</button>
-              <button>Contact</button>
+              <a href={'#contacts'}><button>Contact</button></a>
             </div>
           </div>
           <div>
