@@ -19,9 +19,9 @@ export const TitleCard = () => {
       <span className={s.name}>Andrey Gorbachenko</span>
       <span className={s.prof}>Front-end developer</span>
       <div className={s.iconsBlock}>
-        <FontAwesomeIcon className={s.icons} icon={faGithub}/>
-        <FontAwesomeIcon className={s.icons} icon={faLinkedin}/>
-        <FontAwesomeIcon className={s.icons} icon={faTelegram}/>
+        <a href="https://github.com/angor78"><FontAwesomeIcon className={s.icons} icon={faGithub}/></a>
+        <a href="https://www.linkedin.com/in/andrey-gorbachenko-0ba924241/"><FontAwesomeIcon className={s.icons} icon={faLinkedin}/></a>
+        <a href="https://t.me/Angor78"><FontAwesomeIcon className={s.icons} icon={faTelegram}/></a>
       </div>
 
     </div>

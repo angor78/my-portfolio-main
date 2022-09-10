@@ -23,7 +23,7 @@
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
-
+  cursor: pointer;
 }
 
 a {
@@ -44,6 +44,10 @@ a:hover {
   color: $primary-color;
 }
 
+.active {
+
+}
+
 @media screen and (max-width: 1200px) {
   .nav {
     border: none;
@@ -61,3 +65,4 @@ a:hover {
     text-decoration: none;
   }
 }
+
