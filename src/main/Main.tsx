@@ -3,6 +3,8 @@ import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import photo3 from "../assets/image/photo3.jpg";
 import ReactTypingEffect from "react-typing-effect";
+// @ts-ignore
+import cv from '../assets/files/Gorbachenko_CV.pdf'
 
 export const Main = () => {
 
@@ -50,7 +52,9 @@ export const Main = () => {
               </p>
 
               <div className={s.buttonsWrap}>
-                <button>Download CV</button>
+                <a href={cv} download={'Gorbachenko_CV.pdf'}>
+                  <button>Download CV</button>
+                </a>
                 <a href={'#contacts'}>
                   <button>Contact</button>
                 </a>
