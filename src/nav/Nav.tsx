@@ -3,7 +3,6 @@ import s from './Nav.module.scss'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronRight} from "@fortawesome/free-solid-svg-icons/faChevronRight";
 
-
 export const Nav = () => {
 
   const values = [
@@ -20,8 +19,10 @@ export const Nav = () => {
       <ul>
         {values.map((val) => (
           <li onClick={() => setActiveId(val.id)} key={val.id}>
-            <a href={val.link} className={activeId === val.id ? 'Active' : "Inactive"}>{val.text} <FontAwesomeIcon
-              icon={faChevronRight}/></a>
+            <a href={val.link} className={activeId === val.id ? 'Active' : "Inactive"}>
+              {val.text} <FontAwesomeIcon
+              icon={faChevronRight}/>
+            </a>
           </li>
         ))}
       </ul>

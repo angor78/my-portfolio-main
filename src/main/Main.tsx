@@ -7,7 +7,6 @@ import ReactTypingEffect from "react-typing-effect";
 import cv from '../assets/files/Gorbachenko_CV.pdf'
 
 export const Main = () => {
-
   return (
     <div id='main'>
       <div>
@@ -50,7 +49,6 @@ export const Main = () => {
                 interest in Angular and Vue
                 frameworks.
               </p>
-
               <div className={s.buttonsWrap}>
                 <a href={cv} download={'Gorbachenko_CV.pdf'}>
                   <button>Download CV</button>
